@@ -64,3 +64,15 @@ class Person{
     this.bankAccount = this.bankAccount - hamster.getPrice();
   }
 }
+
+const timmy = new Person('Timmy');
+timmy.ageUp(5);
+timmy.eat(5);
+timmy.excercise(5);
+timmy.ageUp(9);
+const gus = new Hamster('Gus');
+gus.owner = timmy.getName();
+timmmy.buyHamster(gus);
+timmy.ageUp(15);
+timmy.eat(2);
+timmy.excercise(2);
