@@ -72,7 +72,7 @@ timmy.excercise(5);
 timmy.ageUp(9);
 const gus = new Hamster('Gus');
 gus.owner = timmy.getName();
-timmmy.buyHamster(gus);
+timmy.buyHamster(gus);
 timmy.ageUp(15);
 timmy.eat(2);
 timmy.excercise(2);

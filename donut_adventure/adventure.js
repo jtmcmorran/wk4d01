@@ -43,4 +43,8 @@ class Enemy{
 }
 
 let dougie = new Hero("Dougie the Donut");
-let pizzaRat = new Enemy("Pizza Rat")
+let pizzaRat = new Enemy("Pizza Rat");
+dougie.talkSass();
+pizzaRat.talkSmack();
+dougie.announceHealth();
+pizzaRat.announceHealth();
